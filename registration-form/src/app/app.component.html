@@ -1,0 +1,71 @@
+<h3>Registration</h3>
+<div class="body">
+  <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Enter your email address"
+        formControlName="email"
+        id="email"
+        type="email"
+      />
+      <mat-error *ngIf="Register.email.invalid && Register.email.touched">
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Enter your username"
+        formControlName="username"
+        id="username"
+      />
+      <mat-hint>
+        Username must not begin with a number or contain spaces or special
+        character</mat-hint
+      >
+      <mat-error *ngIf="Register.username.invalid && Register.username.touched">
+        Please enter valid username
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Enter your password"
+        formControlName="password"
+        id="password"
+        type="password"
+      />
+      <mat-hint>
+        Musy have at least one number, one uppercase letter, one lowercase
+        letter, and one special character</mat-hint
+      >
+      <mat-error *ngIf="Register.password.invalid && Register.password.touched">
+        Please enter valid password</mat-error
+      >
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Confirm your password"
+        formControlName="password"
+        id="confirm_password"
+        type="password"
+      />
+      <mat-hint> The passwords must match</mat-hint>
+      <!-- <div *ngIf="Register.confirm_password.errors.confirmedValidator">
+        Both Passwords must be match.
+      </div> -->
+    </mat-form-field>
+
+    <button
+      mat-raised-button
+      [disabled]="registrationForm.invalid"
+      color="primary"
+    >
+      Register
+    </button>
+  </form>
+</div>
