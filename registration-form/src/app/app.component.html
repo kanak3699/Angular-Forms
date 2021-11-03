@@ -1,6 +1,6 @@
-<h3>Registration</h3>
 <div class="body">
   <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+    <h3>REGISTER</h3>
     <mat-form-field>
       <input
         matInput
@@ -9,6 +9,8 @@
         id="email"
         type="email"
       />
+      <mat-hint> Email must follow traditional email format</mat-hint>
+
       <mat-error *ngIf="Register.email.invalid && Register.email.touched">
       </mat-error>
     </mat-form-field>
@@ -62,7 +64,7 @@
 
     <button
       mat-raised-button
-      [disabled]="registrationForm.invalid"
+      [disabled]="!registrationForm.invalid"
       color="primary"
     >
       Register

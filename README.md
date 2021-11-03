@@ -149,3 +149,11 @@ get Register() {
 ### File Name - confirmed.validator.ts
 
 Source - https://onlinecode.org/angular-validation-password-and-confirm-password/
+
+### File Name - styles.scss
+
+The image used for the background is under Unsplash License (Creative Commons License) and its policies can be found below:
+
+[Unsplash](https://unsplash.com/license)
+
+The image design was published on January 13, 2019 and was designed by [Pawel Czerwinski](https://unsplash.com/photos/QY9LOl9eZ9w)
