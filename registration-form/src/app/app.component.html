@@ -7,7 +7,6 @@
         placeholder="Enter your email address"
         formControlName="email"
         id="email"
-        type="email"
       />
       <mat-hint> Email must follow traditional email format</mat-hint>
 
@@ -52,19 +51,24 @@
       <input
         matInput
         placeholder="Confirm your password"
-        formControlName="password"
+        formControlName="confirmPassword"
         id="confirm_password"
         type="password"
       />
-      <mat-hint> The passwords must match</mat-hint>
-      <!-- <div *ngIf="Register.confirm_password.errors.confirmedValidator">
-        Both Passwords must be match.
-      </div> -->
     </mat-form-field>
+
+    <div
+      *ngIf="
+        registrationForm.value.password !==
+        registrationForm.value.confirmPassword
+      "
+    >
+      Password must be same
+    </div>
 
     <button
       mat-raised-button
-      [disabled]="!registrationForm.invalid"
+      [disabled]="registrationForm.invalid"
       color="primary"
     >
       Register
