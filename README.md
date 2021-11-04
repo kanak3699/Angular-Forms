@@ -24,7 +24,7 @@ URL for the Code - https://git.cs.dal.ca/kprajapati/l5_prajapati_kanak (Project 
 
 For the website - The marker can simply go the the above provided URL to check the user interface of the website and use it.
 
-For the Code - The code is available on the gitlab, which is shared through the email invitation as well as the link (https://git.cs.dal.ca/kprajapati/l5_prajapati_kanak) (Project ID - 37630).
+For the Code - The code is available on the gitlab, which is shared through the email invitation as well as the link https://git.cs.dal.ca/kprajapati/l5_prajapati_kanak (Project ID - 37630).
 
 ## Deployment
 

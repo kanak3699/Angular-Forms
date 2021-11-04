@@ -34,7 +34,6 @@ export class AppComponent implements OnInit {
       ],
       confirmPassword: ['', [Validators.required]],
     });
-    // this.registrationForm.valueChanges.subscribe(console.log);
   }
   // Reference - https://jasonwatmore.com/post/2019/05/22/angular-7-tutorial-part-5-registration-form-user-service
   get Register() {
@@ -42,7 +41,6 @@ export class AppComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log(this.registrationForm.value);
     this.submitted = true;
     if (this.registrationForm.invalid) {
       return;
