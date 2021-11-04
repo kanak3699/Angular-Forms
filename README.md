@@ -174,4 +174,4 @@ The image design was published on January 13, 2019 and was designed by [Pawel Cz
 
 ## Acknowledgments
 
-- I would like to acknowledge Professor Gabriella Mosquera for the template, angular.io, mateial.angular.io, stackoverflow, and jasonwatmore.com because While solving the Angular errors, I have referred to the these websites and templates.
+- I would like to acknowledge Professor Gabriella Mosquera for the [template](https://dal.brightspace.com/d2l/le/content/185370/viewContent/2678574/View), angular.io, mateial.angular.io, stackoverflow, and jasonwatmore.com because While solving the Angular errors, I have referred to the these websites and templates.
