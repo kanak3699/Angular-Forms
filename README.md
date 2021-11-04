@@ -146,9 +146,23 @@ get Register() {
 
 - [jasonwatmore.com](https://jasonwatmore.com/post/2019/05/22/angular-7-tutorial-part-5-registration-form-user-service)'s script was modified by changing the the statements as per needed for the lab. The changes include function name change and property change.
 
-### File Name - confirmed.validator.ts
+### File Name - app.components.ts
 
-Source - https://onlinecode.org/angular-validation-password-and-confirm-password/
+```
+[a-zA-Z_][a-zA-Z0-9_]*
+```
+
+The code above was created by adapting the code in [Stackoverflow](https://stackoverflow.com/questions/26596297/regex-not-beginning-with-number)
+
+```
+[a-zA-Z_][a-zA-Z0-9_]*
+```
+
+- The code in [Stackoverflow](https://stackoverflow.com/questions/26596297/regex-not-beginning-with-number) was implemented by abarnert.
+
+- [Stackoverflow](https://stackoverflow.com/questions/26596297/regex-not-beginning-with-number)'s code was used to implement the pattern for username.
+
+- [Stackoverflow](https://stackoverflow.com/questions/26596297/regex-not-beginning-with-number)'s script was not modified because the syntax has to match to make username pattern work.
 
 ### File Name - styles.scss
 

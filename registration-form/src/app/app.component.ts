@@ -19,8 +19,8 @@ export class AppComponent implements OnInit {
       email: ['', [Validators.required, Validators.email]],
       username: [
         '',
-        [Validators.required],
-        Validators.pattern('^[A-Za-z][A-Za-z0-9_]$'), // Pattern Source- https://laasyasettyblog.hashnode.dev/validating-username-using-regex
+        [Validators.required, Validators.pattern('[a-zA-Z_][a-zA-Z0-9_]*')],
+        // Pattern Source- https://stackoverflow.com/questions/26596297/regex-not-beginning-with-number
       ],
       password: [
         '',

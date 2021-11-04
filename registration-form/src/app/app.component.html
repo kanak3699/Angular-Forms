@@ -1,7 +1,7 @@
 <div class="body">
   <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
     <h3>REGISTER</h3>
-    <mat-form-field>
+    <mat-form-field style="width: 400px">
       <input
         matInput
         placeholder="Enter your email address"
@@ -39,7 +39,7 @@
         type="password"
       />
       <mat-hint>
-        Musy have at least one number, one uppercase letter, one lowercase
+        Must have at least one number, one uppercase letter, one lowercase
         letter, and one special character</mat-hint
       >
       <mat-error *ngIf="Register.password.invalid && Register.password.touched">
@@ -62,6 +62,7 @@
         registrationForm.value.password !==
         registrationForm.value.confirmPassword
       "
+      style="color: red"
     >
       Password must be same
     </div>
