@@ -16,7 +16,7 @@ Lab 5 - Creating a Web Form using Angular
 
 The maker will be able to use the website from the web browser.
 
-URL for the Website - https://web.cs.dal.ca/~kprajapati/csci3172/l5_prajapati_kanak/index.html
+URL for the Website - https://web.cs.dal.ca/~kprajapati/csci3172/lab5/
 
 URL for the Code - https://git.cs.dal.ca/kprajapati/l5_prajapati_kanak (Project ID - 37630)
 
