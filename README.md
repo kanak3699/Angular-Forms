@@ -171,3 +171,7 @@ The image used for the background is under Unsplash License (Creative Commons Li
 [Unsplash](https://unsplash.com/license)
 
 The image design was published on January 13, 2019 and was designed by [Pawel Czerwinski](https://unsplash.com/photos/QY9LOl9eZ9w)
+
+## Acknowledgments
+
+- I would like to acknowledge Professor Gabriella Mosquera for the template, angular.io, mateial.angular.io, stackoverflow, and jasonwatmore.com because While solving the Angular errors, I have referred to the these websites and templates.
