@@ -14,15 +14,11 @@ Lab 5 - Creating a Web Form using Angular
 
 ## Getting Started
 
-The maker will be able to use the website from the web browser.
-
 URL for the Website - https://web.cs.dal.ca/~kprajapati/csci3172/lab5/
-
-URL for the Code - https://git.cs.dal.ca/kprajapati/l5_prajapati_kanak (Project ID - 37630)
 
 ### Installing
 
-For the website - The marker can simply go the the above provided URL to check the user interface of the website and use it.
+For the website - You can simply go the the above provided URL to check the user interface of the website and use it.
 
 For the Code - The code is available on the gitlab, which is shared through the email invitation as well as the link https://git.cs.dal.ca/kprajapati/l5_prajapati_kanak (Project ID - 37630).
 
